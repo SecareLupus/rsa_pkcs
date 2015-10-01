@@ -5,7 +5,8 @@ description: RSA,PKCS#1,PKCS#8
 homepage: https://github.com/amaurel/rsa_pkcs
 dependencies:
   asn1lib: any
-  cipher: any
+  cipher:
+    git: git://github.com/SecareLupus/cipher.git
 dev_dependencies:
   crypto: any 
   unittest: any
